@@ -1,0 +1,16 @@
+.top-menu {
+  li {
+    text-align: center;
+    font-family: $helvetica-roman;
+    @include span(1 of 6 1/9);
+    &:last-child{
+      @include last;
+    }
+    display: inline-block;
+    vertical-align: middle;
+    a {
+      font-size: 0.9em;
+      text-transform: uppercase;
+    }
+  }
+}

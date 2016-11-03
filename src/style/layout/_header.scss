@@ -1,0 +1,28 @@
+header {
+  .top-panel {
+    min-width: $wrapper-min-width;
+    background-color: #343434;
+    height: 118px;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    z-index: 1;
+    .wrapper {
+      .container {
+        .logo {
+          width: 39%;
+          float: left;
+          padding-left: 3%;
+          padding-top: 14px;
+        }
+        .menu-block {
+          width: 58%;
+          float: right;
+          padding-top: 49px;
+        }
+        @include clearfix;
+      }
+    }
+  }
+}

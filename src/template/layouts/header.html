@@ -1,0 +1,28 @@
+<div class="top-panel">
+  <div class="wrapper">
+    <div class="container">
+      <div class="logo">
+        <a href="/" title="Кубань радикал лазерное оборудование"><img src="./images/logo.png" alt="logo"></a>
+      </div>
+      <div class="menu-block">
+        <!--start component top menu-->
+        {% include '.././components/top-menu.html' %}
+        <!--end component top-->
+      </div>
+    </div>
+  </div>
+</div>
+<!--start component slider-->
+<div class="slider-container fullwidth">
+  <div id="slider" data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "dots": true}'>
+    <!--foreach $arResult-->
+    <img src="./images/slider1.jpg" alt="slide1">
+
+    <img src="./images/slider1.jpg" alt="slide2">
+
+    <img src="./images/slider1.jpg" alt="slide3">
+
+    <!--endforeach-->
+  </div>
+</div>
+<!--end component slider-->

@@ -1,0 +1,56 @@
+{
+  "title": "New project",
+  "menuItems": [
+    {
+      "name": "Главная",
+      "link": "/",
+      "sub": []
+    },
+    {
+      "name": "О компании",
+      "link": "/",
+      "sub": []
+    },
+    {
+      "name": "Продукция",
+      "link": "/",
+      "sub": [
+        {
+          "name": "Web Design",
+          "link": "#"
+        },
+        {
+          "name": "Graphic Design",
+          "link": "#"
+        },
+        {
+          "name": "Logo Design",
+          "link": "#"
+        },
+        {
+          "name": "Ui Experience",
+          "link": "#"
+        },
+        {
+          "name": "Personal Work",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "Покупка",
+      "link": "/",
+      "sub": []
+    },
+    {
+      "name": "Лазерная резка",
+      "link": "/",
+      "sub": []
+    },
+    {
+      "name": "Контакты",
+      "link": "/",
+      "sub": []
+    }
+  ]
+}
