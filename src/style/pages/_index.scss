@@ -1,3 +1,28 @@
-body{
- background: #ccc;
+.about-text {
+  padding-left: 5px;
+  padding-top: 41px;
+  padding-bottom: 30px;
+  width: 76%;
+  .about-head {
+    display: inline-block;
+    font-size: 0.7em;
+    font-weight: 500;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+  }
+  .text-block-1 {
+    font-size: 0.9em;
+    line-height: 1.6em;
+    margin-bottom: 41px;
+    font-weight: 300;
+  }
+  .text-block-2 {
+    font-size: 1.05rem;
+    line-height: 1.7rem;
+  }
+}
+.block-2{
+  @include clearfix;
+  border-bottom: 2px solid #ececec;
+  padding-bottom: 25px;
 }

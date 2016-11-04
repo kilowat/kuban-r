@@ -1,0 +1,31 @@
+.service-descr-list{
+  margin-top: 58px;
+  .section-item{
+    float: left;
+     width: 18%;
+    &:first-child{
+      padding-right: 9%;
+    }
+    h2{
+      margin-bottom: 5px;
+      span{
+        text-transform: uppercase;
+        font-weight: 600;
+        padding-right: 10px;
+      }
+    }
+    .item-row{
+      height: 62px;
+      .item-cell{
+        vertical-align: middle;
+        padding-left: 10px;
+        &:first-child{
+          width: 55px;
+        }
+        &:nth-child(2){
+          padding-left: 25px;
+        }
+      }
+    }
+  }
+}

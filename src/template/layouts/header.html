@@ -1,28 +1,74 @@
-<div class="top-panel">
-  <div class="wrapper">
-    <div class="container">
-      <div class="logo">
-        <a href="/" title="Кубань радикал лазерное оборудование"><img src="./images/logo.png" alt="logo"></a>
-      </div>
-      <div class="menu-block">
-        <!--start component top menu-->
-        {% include '.././components/top-menu.html' %}
-        <!--end component top-->
+<div class="top-section">
+  <div class="top-panel">
+    <div class="wrapper">
+      <div class="container">
+        <div class="logo">
+          <a href="/" title="Кубань радикал лазерное оборудование"><img src="./images/logo.png" alt="logo"></a>
+        </div>
+        <div class="menu-block">
+          <!--start component top menu-->
+          {% include '.././components/top-menu.html' %}
+          <!--end component top-->
+        </div>
+        <!--start component search-->
+        <div id="search">
+          <form action="">
+            <div class="search-row">
+              <input type="text" name="search">
+              <input type="submit" value="">
+            </div>
+          </form>
+        </div>
+        <!--end component search-->
       </div>
     </div>
   </div>
 </div>
-<!--start component slider-->
-<div class="slider-container fullwidth">
-  <div id="slider" data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "dots": true}'>
-    <!--foreach $arResult-->
-    <img src="./images/slider1.jpg" alt="slide1">
+<!--component start slider-->
+<div class="slider-bg">
+  <div class="wrapper">
+    <div class="container">
+      <div id="slider" data-slick='{"arrows": false, "dots": true, "dotsClass": "slider-dots", "fade": true, "autoplaySpeed": "300000000"}'>
+        <!--foreach $arResult-->
+        <div class="slider-row">
+          <div class="slider-cell">
+            <span>Из Китая в Россию</span>
+          </div>
+          <div class="slider-cell">
+            <span>Лазерное оборудование "под ключ" дешевле, чем у завода</span>
+          </div>
+          <div class="slider-cell dote"></div>
+        </div>
+        <div class="slider-row">
+          <div class="slider-cell">
+            <span>Резка, гравировка, марикировка</span>
+          </div>
+          <div class="slider-cell">
+            <span>Станки мощностью от 20 Вт до 3 кВт для обрабоки практически бюиых материалов</span>
+          </div>
+          <div class="slider-cell dote"></div>
+        </div>
+        <div class="slider-row">
+          <div class="slider-cell">
+            <span>Лазерная резка</span>
+          </div>
+          <div class="slider-cell">
+            <span>Услуги лазерной резки в Краснодаре по самой выгодной цене</span>
+          </div>
+          <div class="slider-cell dote"></div>
+        </div>
+        <!--endforeach-->
+      </div>
 
-    <img src="./images/slider1.jpg" alt="slide2">
+      <!--start include social buttons-->
+      <ul class="soc-icon-list">
+        <li><a href="#" title="#" class="soc-icon"><i class="ic_fb"></i></a></li>
+        <li><a href="#" title="#" class="soc-icon"><i class="ic_vk"></i></a></li>
+        <li><a href="#" title="#" class="soc-icon"><i class="ic_inst"></i></a></li>
+      </ul>
+      <!--end include social buttons-->
 
-    <img src="./images/slider1.jpg" alt="slide3">
-
-    <!--endforeach-->
+    </div>
   </div>
 </div>
 <!--end component slider-->

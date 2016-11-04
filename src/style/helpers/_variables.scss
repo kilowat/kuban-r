@@ -7,13 +7,15 @@ $wrapper-min-width: 1000px;
 $container-margin: 10px;
 
 //fonts
-$helvetica-medium: 'HelveticaNeueCyr-Medium';
-$helvetica-roman: 'HelveticaNeueCyr-Roman';
-$helvetica-bold: 'HelveticaNeueCyr-Bold';
-$helvetica-italic: 'HelveticaNeueCyr-Italic';
+$helvetica: 'HelveticaNeueCyr';
 
-$base-font-size: 14px;
-$base-font-family: $helvetica-medium;
+
+$base-font-size: 16px;
+$base-font-family: $helvetica;
 
 //colors
 $color-link-hover: #e4593a;
+$color-grey: #363636;
+$color-grey-light: #737373;
+$color-dark: #272630;
+$color-orange: #f26c4f;

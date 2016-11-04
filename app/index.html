@@ -13,68 +13,375 @@
 </head>
 
 <body>
-  <header>
-    <div class="top-panel">
-      <div class="wrapper">
-        <div class="container">
-          <div class="logo">
-            <a href="/" title="Кубань радикал лазерное оборудование"><img src="./images/logo.png" alt="logo"></a>
-          </div>
-          <div class="menu-block">
-            <!--start component top menu-->
-            <ul class="top-menu">
-              <!--foreach $arResult-->
-
-              <li>
-                <a href="/" title="Главная">Главная</a>
-              </li>
-
-              <li>
-                <a href="/" title="О компании">О компании</a>
-              </li>
-
-              <li>
-                <a href="/" title="Продукция">Продукция</a>
-              </li>
-
-              <li>
-                <a href="/" title="Покупка">Покупка</a>
-              </li>
-
-              <li>
-                <a href="/" title="Лазерная резка">Лазерная резка</a>
-              </li>
-
-              <li>
-                <a href="/" title="Контакты">Контакты</a>
-              </li>
-
-              <!--end foreach-->
-            </ul>
-            <!--end component top-->
+  <header class="full-bg">
+    <div class="top-section">
+      <div class="top-panel">
+        <div class="wrapper">
+          <div class="container">
+            <div class="logo">
+              <a href="/" title="Кубань радикал лазерное оборудование"><img src="./images/logo.png" alt="logo"></a>
+            </div>
+            <div class="menu-block">
+              <!--start component top menu-->
+              <ul class="top-menu">
+                <!--foreach $arResult-->
+                <li>
+                  <a href="/" title="Главная" class="selected">Главная</a>
+                </li>
+                <li>
+                  <a href="/" title="О компании">О компании</a>
+                </li>
+                <li>
+                  <a href="/" title="Продукция">Продукция</a>
+                  <ul>
+                    <li class="triangle-with-shadow"></li>
+                    <li>
+                      <a href="#" title="Web Design">Web Design</a>
+                    </li>
+                    <li>
+                      <a href="#" title="Graphic Design<">Graphic Design</a>
+                    </li>
+                    <li>
+                      <a href="#" title="Logo Design">Logo Design</a>
+                    </li>
+                    <li>
+                      <a href="#" title="Ui Experience">Ui Experience</a>
+                    </li>
+                    <li>
+                      <a href="#" title="Personal Work">Personal Work</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="/" title="Покупка">Покупка</a>
+                </li>
+                <li>
+                  <a href="/" title="Лазерная резка">Лазерная резка</a>
+                </li>
+                <li>
+                  <a href="/" title="Контакты">Контакты </a>
+                </li>
+                <!--end foreach-->
+              </ul>
+              <!--end component top-->
+            </div>
+            <!--start component search-->
+            <div id="search">
+              <form action="">
+                <div class="search-row">
+                  <input type="text" name="search">
+                  <input type="submit" value="">
+                </div>
+              </form>
+            </div>
+            <!--end component search-->
           </div>
         </div>
       </div>
     </div>
-    <!--start component slider-->
-    <div class="slider-container fullwidth">
-      <div id="slider" data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "dots": true}'>
-        <!--foreach $arResult-->
-        <img src="./images/slider1.jpg" alt="slide1">
+    <!--component start slider-->
+    <div class="slider-bg">
+      <div class="wrapper">
+        <div class="container">
+          <div id="slider" data-slick='{"arrows": false, "dots": true, "dotsClass": "slider-dots", "fade": true, "autoplaySpeed": "300000000"}'>
+            <!--foreach $arResult-->
+            <div class="slider-row">
+              <div class="slider-cell">
+                <span>Из Китая в Россию</span>
+              </div>
+              <div class="slider-cell">
+                <span>Лазерное оборудование "под ключ" дешевле, чем у завода</span>
+              </div>
+              <div class="slider-cell dote"></div>
+            </div>
+            <div class="slider-row">
+              <div class="slider-cell">
+                <span>Резка, гравировка, марикировка</span>
+              </div>
+              <div class="slider-cell">
+                <span>Станки мощностью от 20 Вт до 3 кВт для обрабоки практически бюиых материалов</span>
+              </div>
+              <div class="slider-cell dote"></div>
+            </div>
+            <div class="slider-row">
+              <div class="slider-cell">
+                <span>Лазерная резка</span>
+              </div>
+              <div class="slider-cell">
+                <span>Услуги лазерной резки в Краснодаре по самой выгодной цене</span>
+              </div>
+              <div class="slider-cell dote"></div>
+            </div>
+            <!--endforeach-->
+          </div>
 
-        <img src="./images/slider1.jpg" alt="slide2">
+          <!--start include social buttons-->
+          <ul class="soc-icon-list">
+            <li><a href="#" title="#" class="soc-icon"><i class="ic_fb"></i></a></li>
+            <li><a href="#" title="#" class="soc-icon"><i class="ic_vk"></i></a></li>
+            <li><a href="#" title="#" class="soc-icon"><i class="ic_inst"></i></a></li>
+          </ul>
+          <!--end include social buttons-->
 
-        <img src="./images/slider1.jpg" alt="slide3">
-
-        <!--endforeach-->
+        </div>
       </div>
     </div>
     <!--end component slider-->
   </header>
   <main>
+    <div class="wrapper">
+      <div class="container">
 
-    index page
+        <div class="about-text">
+          <h1>
+            <span class="about-head">
+     <span>кубань Радикал</span>
+            <span class=color-orange>& Han's Yueming Laser Tech</span>
+            </span>
+            <p class="color-grey-light text-block-1">
+              Компания Кубань Радикал - официальный международный агент завода Han's Yueming Laser Tech, который является бесспорным лидером по разработке и производству лазерного оборудования для резки, гравировки и маркировки, продавая более 10 000 машин в год по
+              всему миру.
+            </p>
+            <p class="color-grey text-block-2">
+              Мы предлагаем Вам более 100 моделей высококачественных лазерных станков для обработки почти любых материалов. <br> Лазерная обработка - наиболее эффективная и высокоточная технология раскройки и гравировки как листового материала, так и
+              изогнутых поверхностей. С ее помощью можно изготавливать технические и декоративные детали любой конфигурации, не обращая внимания на геометрические ограничения. Лазерная обработка позволяет существенно сократить трудозатраты при более высоком
+              качестве продукта и меньших издержках.
+            </p>
+          </h1>
+        </div>
+        <section class="block-1">
+          <!--start component product slider-->
+          <div class="product-wrapper">
+            <div id="product-slider" data-slick='{"slidesToShow": 4,
+  "slidesToScroll": 4}'>
+              <!--foreach $arResult-->
+              <div class="item">
+                <div class="image">
+                  <a href="" title="CMA0604-B-A/1008-B-A/1309-B-A" style="background-image:url(./images/printer-1.png)">
+                  </a>
+                </div>
+                <div class="text">
+                  <a href="" title="CMA0604-B-A/1008-B-A/1309-B-A">CMA0604-B-A/1008-B-A/1309-B-A</a>
+                  <div class="text-desc">
+                    Обновленная лазерная машина для резки металла и неметалла.
+                  </div>
+                </div>
+              </div>
 
+              <div class="item">
+                <div class="image">
+                  <a href="" title="" style="background-image:url(./images/printer-2.png)">
+                  </a>
+                </div>
+                <div class="text">
+                  <a href="" title="cMA960-T/1080-T/1390-T/1313-T">cMA960-T/1080-T/1390-T/1313-T</a>
+                  <div class="text-desc">
+                    Лазерная машина для резки со сдвоенной головкой.
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="image">
+                  <a href="" title="" style="background-image:url(./images/printer-2.png)">
+                  </a>
+                </div>
+                <div class="text">
+                  <a href="" title="CMA0604-B-A/1008-B-A/1309-B-A">CMA0604-B-A/1008-B-A/1309-B-A</a>
+                  <div class="text-desc">
+                    Обновленная лазерная машина для резки металла и неметалла.
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="image">
+                  <a href="" title="" style="background-image:url(./images/printer-3.png)">
+                  </a>
+                </div>
+                <div class="text">
+                  <a href="" title="CMA0604-T-A/1008-T-A/1309-T-A">CMA0604-T-A/1008-T-A/1309-T-A</a>
+                  <div class="text-desc">
+                    Обновленная лазерная машина для резки со сдвоенной головкой.
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="image">
+                  <a href="" title="" style="background-image:url(./images/printer-4.png)">
+                  </a>
+                </div>
+                <div class="text">
+                  <a href="" title="CMA0604-T-A/1008-T-A/1309-T-A">CMA0604-T-A/1008-T-A/1309-T-A</a>
+                  <div class="text-desc">
+                    Обновленная лазерная машина для резки со сдвоенной головкой.
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="image">
+                  <a href="" title="" style="background-image:url(./images/printer-1.png)">
+                  </a>
+                </div>
+                <div class="text">
+                  <a href="" title="CMA0604-T-A/1008-T-A/1309-T-A">CMA0604-T-A/1008-T-A/1309-T-A</a>
+                  <div class="text-desc">
+                    Обновленная лазерная машина для резки со сдвоенной головкой.
+                  </div>
+                </div>
+              </div>
+              <!--endforeach-->
+            </div>
+          </div>
+          <!--end component product slider-->
+        </section>
+
+        <section class="block-2">
+          <!--start component serivce description list-->
+          <div class="service-descr-list">
+            <!--foreach $arResult-->
+            <div class="section-item">
+              <h2><span>Сферы</span><span class="color-orange">применения</span></h2>
+
+              <div class="item-row table">
+                <div class="item-cell table-cell"><img src="./images/teh-detail.png" alt=""></div>
+                <div class="item-cell table-cell">технические детали</div>
+              </div>
+
+              <div class="item-row table">
+                <div class="item-cell table-cell"><img src="./images/reklama.png" alt=""></div>
+                <div class="item-cell table-cell">реклами</div>
+              </div>
+
+              <div class="item-row table">
+                <div class="item-cell table-cell"><img src="./images/skin.png" alt=""></div>
+                <div class="item-cell table-cell">изделия из кожи и текстиля</div>
+              </div>
+
+              <div class="item-row table">
+                <div class="item-cell table-cell"><img src="./images/poligrafiy.png" alt=""></div>
+                <div class="item-cell table-cell">полиграфия</div>
+              </div>
+
+              <div class="item-row table">
+                <div class="item-cell table-cell"><img src="./images/raskroky.png" alt=""></div>
+                <div class="item-cell table-cell">раскрой</div>
+              </div>
+
+              <div class="item-row table">
+                <div class="item-cell table-cell"><img src="./images/box.png" alt=""></div>
+                <div class="item-cell table-cell">упаковка</div>
+              </div>
+
+              <div class="item-row table">
+                <div class="item-cell table-cell"><img src="./images/makets.png" alt=""></div>
+                <div class="item-cell table-cell">макеты</div>
+              </div>
+
+              <div class="item-row table">
+                <div class="item-cell table-cell"><img src="./images/prints.png" alt=""></div>
+                <div class="item-cell table-cell">печати и штампы</div>
+              </div>
+
+            </div>
+
+            <div class="section-item">
+              <h2><span>Способы</span><span class="color-orange">обработки</span></h2>
+
+              <div class="item-row table">
+                <div class="item-cell table-cell"><img src="./images/cut.png" alt=""></div>
+                <div class="item-cell table-cell">резка</div>
+              </div>
+
+              <div class="item-row table">
+                <div class="item-cell table-cell"><img src="./images/gravirovka.png" alt=""></div>
+                <div class="item-cell table-cell">гравировка</div>
+              </div>
+
+              <div class="item-row table">
+                <div class="item-cell table-cell"><img src="./images/marker.png" alt=""></div>
+                <div class="item-cell table-cell">маркировка</div>
+              </div>
+
+              <div class="item-row table">
+                <div class="item-cell table-cell"><img src="./images/perf.png" alt=""></div>
+                <div class="item-cell table-cell">перфорация</div>
+              </div>
+
+            </div>
+            <!--endforeach-->
+          </div>
+          <!--end component service description list-->
+
+          <!--start component serivce description list-->
+          <div class="materials">
+            <h2>
+              <span>виды</span>
+              <span class="color-orange">материалов</span>
+            </h2>
+            <div class="materials-list">
+              <!--foreach $arResult-->
+              <div class="item">
+                <b>МЕТАЛЛЫ</b> нержавеющая и черная сталь, различные сплавы металлов, включая аннодированные и окрашенные поверхности, драгоценные металлы.
+              </div>
+              <div class="item">
+                <b>ДЕРЕВО</b> натуральное дерево. бамбук, фанера, ламинированные и шпонированные материалы, МДФ, ПСБ, ДВП, ДСП.
+              </div>
+              <div class="item">
+                <b>ПЛАСТИК</b> акрил (оргстекло), полистирол, полиэфирное стекло, стиролакронитрил, зеркальные и фольгированные пластики, поликарбонат, слоистые пластики, полипропилен, фторопласт, облицовочные пластики, пенопласт и поролон, вспененные
+                ПВХ пластики.
+              </div>
+              <div class="item">
+                <b>СТЕКЛО И КЕРАМИКА</b> стекло, хрусталь, керамическая плитка.
+              </div>
+              <div class="item">
+                <b> КОЖА И ТЕКСТИЛЬ</b> натуральная и искусственная кожа, различные виды ткани и текстильных материалов.
+                <div class="item">
+                  <b>КАМЕНЬ</b> натуральный и искусственный камень. РЕЗИНА различные каучуковые материалы, линолеум.
+                </div>
+                <b>БУМАГА</b> картон, пенокартон, бумага.
+                <div class="item">
+                  <b> КОМПОЗИТНЫЕ МАТЕРИАЛЫ</b> поранит, гипсокартон, слюда и т.д.
+                </div>
+                <!--endforeach-->
+              </div>
+            </div>
+            <!--end component service description list-->
+        </section>
+
+        <section class="block-3">
+          <!--start component our advantages--->
+          <div class="our-advatages">
+            <h2>
+              <span>Преимущества</span>
+              <span class="color-orange">нашего оборудования</span>
+            </h2>
+            <!--foreach $arResult-->
+            <div class="row">
+              <div class="item">самая выгодная цена.</div>
+              <div class="item">международные сертификаты качества.</div>
+              <div class="item">широкий ассортимент моделей мощностью от 10 Вт до 3 кВт и рабочей плоскостью от 110х110 мм до 2000х4000 мм.</div>
+              <div class="item">точность позиционирования
+                <0,005 мм.</div>
+                  <div class="item">максимальная скорость резки и гравировки до 100 м/мин, маркировки до 15 м/сек.
+                  </div>
+              </div>
+              <div class="row">
+                <div class="item">самая максимальная комплектация (от необходимых для сборки инструментов до коврика для компьютерной мышки).</div>
+                <div class="item">интерфейс на русском языке.</div>
+                <div class="item">срок службы 15 лет.</div>
+                <div class="item">гарантия 1 год.</div>
+                <div class="item">легкий монтаж и обслуживания, полностью автоматизированная эксплуатация.</div>
+              </div>
+              <!--endforeach-->
+            </div>
+            <!--end component our advanages-->
+        </section>
+
+        </div>
+        </div>
   </main>
   <footer>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis autem obcaecati atque sed nostrum corporis illo facere laudantium. Nesciunt ullam saepe sint officiis distinctio! Quae amet dignissimos, eos iste facere!</p>

@@ -1,16 +1,90 @@
 .top-menu {
-  li {
+  >li {
+    position: relative;
     text-align: center;
-    font-family: $helvetica-roman;
-    @include span(1 of 6 1/9);
-    &:last-child{
+    @include span(1 of 6 0);
+    &:last-child {
       @include last;
     }
     display: inline-block;
     vertical-align: middle;
-    a {
-      font-size: 0.9em;
+    a.selected{
+      color: $color-link-hover;
+    }
+    >a {
+      font-size: 0.8em;
       text-transform: uppercase;
+      font-weight: 500;
+      &:hover{
+        +ul{
+          display: block;
+        }
+      }
+    }
+    ul {
+      box-shadow: -1px -1px 3px -2px rgba(0, 0, 0, 0.5);
+      position: absolute;
+      text-align: left;
+      left: 0px;
+      background-color: #272727;
+      z-index: 2;
+      padding: 32px 30px;
+      border: 1px solid #383838;
+      border-radius: 5px;
+      width: 190px;
+      top: 44px;
+      left: 69px;
+      display: none;
+      &:hover{
+        display: block;
+      }
+      li {
+        margin-bottom: 22px;
+        margin-top: 20px;
+        a {
+          font-weight: 600;
+          font-size: 1.1em;
+        }
+      }
+      &:before {
+      background:  none repeat scroll 0 0;
+        content: "";
+        display: block;
+        height: 41px;
+        left: -51px;
+        position: absolute;
+        top: -36px;
+        width: 120%;
+      }
+    }
+    .triangle-with-shadow {
+      height: 25px;
+      overflow: hidden;
+      position: absolute;
+      top: -43px;
+      width: 30px;
+    }
+    .triangle-with-shadow:after {
+      background: #272727 none repeat scroll 0 0;
+      box-shadow: -1px -1px 3px -2px rgba(0, 0, 0, 0.5);
+      content: "";
+      height: 25px;
+      left: 2px;
+      position: absolute;
+      top: 15px;
+      transform: rotate(45deg);
+      width: 30px;
+    }
+    .triangle-with-shadow:before {
+      background: #3e3e3e none repeat scroll 0 0;
+      content: "";
+      height: 22px;
+      left: 2px;
+      position: absolute;
+      top: 16px;
+      transform: rotate(45deg);
+      width: 37px;
+      z-index: 0;
     }
   }
 }

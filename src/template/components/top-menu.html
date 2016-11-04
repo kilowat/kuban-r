@@ -1,9 +1,40 @@
 <ul class="top-menu">
   <!--foreach $arResult-->
-   {% for item in menuItems %}
-   <li>
-     <a href="{{ item.link }}" title="{{ item.name }}">{{ item.name }}</a>
-   </li>
-   {% endfor %}
+  <li>
+    <a href="/" title="Главная" class="selected">Главная</a>
+  </li>
+  <li>
+    <a href="/" title="О компании">О компании</a>
+  </li>
+  <li>
+    <a href="/" title="Продукция">Продукция</a>
+    <ul>
+      <li class="triangle-with-shadow"></li>
+      <li>
+        <a href="#" title="Web Design">Web Design</a>
+      </li>
+      <li>
+        <a href="#" title="Graphic Design<">Graphic Design</a>
+      </li>
+      <li>
+        <a href="#" title="Logo Design">Logo Design</a>
+      </li>
+      <li>
+        <a href="#" title="Ui Experience">Ui Experience</a>
+      </li>
+      <li>
+        <a href="#" title="Personal Work">Personal Work</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="/" title="Покупка">Покупка</a>
+  </li>
+  <li>
+    <a href="/" title="Лазерная резка">Лазерная резка</a>
+  </li>
+  <li>
+    <a href="/" title="Контакты">Контакты </a>
+  </li>
   <!--end foreach-->
 </ul>

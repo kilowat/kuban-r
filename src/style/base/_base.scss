@@ -1,5 +1,5 @@
-html{
-   font-size: $base-font-size;
+body{
+  font-size: $base-font-size;
   font-family: $base-font-family;
 } 
 .wrapper{
@@ -8,9 +8,8 @@ html{
   min-width: $wrapper-min-width;
 }
 .container{
-  margin-left: $container-margin;
-  margin-right: $container-margin;
-  min-width: $wrapper-min-width;
+  padding-left: $container-margin;
+  padding-right: $container-margin;
 }
 a{
   text-decoration: none;
@@ -18,4 +17,28 @@ a{
   &:hover{
     color: $color-link-hover;
   }
+}
+main{
+  border-top: 8px solid #ebebeb;
+}
+.table{
+  display: table;
+}
+.table-row{
+  display: table-row;
+}
+.table-cell{
+  display: table-cell;
+}
+.color-orange{
+  color:$color-orange;
+}
+.color-dark{
+  color: $color-dark;
+}
+.color-grey{
+  color: $color-grey;
+}
+.color-grey-light{
+ color: $color-grey-light; 
 }

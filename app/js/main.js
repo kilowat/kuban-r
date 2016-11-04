@@ -1,6 +1,6 @@
+$(document).ready(function () {
 
-$(document).ready(function(){
-  
-   $('#slider').slick();
+  $('#slider').slick();
+  $('#product-slider').slick();
 
 });

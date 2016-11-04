@@ -4,105 +4,6 @@
 {
   background: #fff url('#{$image-path}ajax-loader.gif') center center no-repeat;
 }
-
-
-/* Arrows */
-.slick-prev,
-.slick-next
-{
-    font-size: 0;
-    line-height: 0;
-
-    position: absolute;
-    top: 50%;
-
-    display: block;
-
-    width: 20px;
-    height: 20px;
-    padding: 0;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-
-    cursor: pointer;
-
-    color: transparent;
-    border: none;
-    outline: none;
-    background: transparent;
-}
-.slick-prev:hover,
-.slick-prev:focus,
-.slick-next:hover,
-.slick-next:focus
-{
-    color: transparent;
-    outline: none;
-    background: transparent;
-}
-.slick-prev:hover:before,
-.slick-prev:focus:before,
-.slick-next:hover:before,
-.slick-next:focus:before
-{
-    opacity: 1;
-}
-.slick-prev.slick-disabled:before,
-.slick-next.slick-disabled:before
-{
-    opacity: .25;
-}
-
-.slick-prev:before,
-.slick-next:before
-{
-    font-size: 20px;
-    line-height: 1;
-
-    opacity: .75;
-    color: white;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.slick-prev
-{
-    left: -25px;
-}
-[dir='rtl'] .slick-prev
-{
-    right: -25px;
-    left: auto;
-}
-.slick-prev:before
-{
-    content: '←';
-}
-[dir='rtl'] .slick-prev:before
-{
-    content: '→';
-}
-
-.slick-next
-{
-    right: -25px;
-}
-[dir='rtl'] .slick-next
-{
-    right: auto;
-    left: -25px;
-}
-.slick-next:before
-{
-    content: '→';
-}
-[dir='rtl'] .slick-next:before
-{
-    content: '←';
-}
-
 /* Dots */
 .slick-dotted.slick-slider
 {
@@ -167,9 +68,9 @@
 }
 .slick-dots li button:before
 {
-    font-family: 'slick';
-    font-size: 6px;
-    line-height: 20px;
+  
+
+ 
 
     position: absolute;
     top: 0;
@@ -289,26 +190,4 @@
 }
 .slick-arrow.slick-hidden {
     display: none;
-}
-.fullwidth {
-    width: 100%;
-    margin-left: auto;
-	margin-right: auto;
-	max-width: initial;
-    min-width: $wrapper-min-width;
-}
-.slider {margin: 0;}
-.slider .slide {width: 100%; height: 100%;}
-
-.slick-prev {
-    left: 0;
-    background: red;
-}
-.slick-next {
-    right: 0;
-    background: red;
-}
-.slick-dots {
-  bottom: 0px;
-  margin-left: 0; /* Fixes the visible horizontal scroll bar */
 }

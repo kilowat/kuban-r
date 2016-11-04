@@ -1,0 +1,22 @@
+.materials {
+  float: right;
+  width: 47%;
+  h2 {
+    margin-bottom: 10px;
+    span {
+      font-weight: 600;
+      padding-right: 5px;
+      text-transform: uppercase;
+    }
+  }
+  .materials-list {
+    line-height: 1.8em;
+    .item {
+      margin-bottom: 10px;
+      b {
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

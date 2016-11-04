@@ -1,0 +1,31 @@
+#search {
+  bottom: -85px;
+  position: absolute;
+  right: 56px;
+  .search-row {
+    width: 280px;
+    position: relative;
+    input[type=text] {
+      border: medium none;
+      border-radius: 20px;
+      box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3) inset;
+      color: #777;
+      font-size: 1.1em;
+      height: 32px;
+      padding-left: 40px;
+      width: 100%;
+    }
+    input[type=submit] {
+      background-color: transparent;
+      background-image: url("../images/sprite.png");
+      background-position: -17px -37px;
+      border: medium none;
+      height: 17px;
+      left: 16px;
+      position: absolute;
+      top: 10px;
+      width: 21px;
+      @include sprite($ic_search);
+    }
+  }
+}
