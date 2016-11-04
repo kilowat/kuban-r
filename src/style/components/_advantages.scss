@@ -1,0 +1,37 @@
+.our-advatages {
+  margin-top: 50px;
+  padding-left: 10px;
+  @include clearfix;
+  h2 {
+    margin-bottom: 30px;
+    span {
+      font-weight: 600;
+      padding-right: 5px;
+      text-transform: uppercase;
+    }
+  }
+  .row {
+    float: left;
+    width: 44%;
+    &:last-child{
+      margin-left: 3%;
+      .item:last-child{
+        margin-bottom: 0;
+      }
+    }
+    .item {
+      margin-bottom: 35px;
+      padding-left: 82px;
+      position: relative;
+      line-height: 1.3em;
+      color: $color-grey;
+      &:before {
+        display: block;
+        content: "";
+        position: absolute;
+        left: 0px;
+        @include sprite($ic_v);
+      }
+    }
+  }
+}

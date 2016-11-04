@@ -32,30 +32,11 @@
 
 <section class="block-3">
   <!--start component our advantages--->
-  <div class="our-advatages">
-    <h2>
-     <span>Преимущества</span>
-     <span class="color-orange">нашего оборудования</span>
-   </h2>
-    <!--foreach $arResult-->
-    <div class="row">
-      <div class="item">самая выгодная цена.</div>
-      <div class="item">международные сертификаты качества.</div>
-      <div class="item">широкий ассортимент моделей мощностью от 10 Вт до 3 кВт и рабочей плоскостью от 110х110 мм до 2000х4000 мм.</div>
-      <div class="item">точность позиционирования
-        <0,005 мм.</div>
-          <div class="item">максимальная скорость резки и гравировки до 100 м/мин, маркировки до 15 м/сек.
-          </div>
-      </div>
-      <div class="row">
-        <div class="item">самая максимальная комплектация (от необходимых для сборки инструментов до коврика для компьютерной мышки).</div>
-        <div class="item">интерфейс на русском языке.</div>
-        <div class="item">срок службы 15 лет.</div>
-        <div class="item">гарантия 1 год.</div>
-        <div class="item">легкий монтаж и обслуживания, полностью автоматизированная эксплуатация.</div>
-      </div>
-      <!--endforeach-->
-    </div>
-    <!--end component our advanages-->
+  {% include './../components/advantages.html' %}
+  <!--end component our advanages-->
 </section>
+
+<!--start companent take catalog form-->
+{% include './../components/take-catalog.html' %}
+<!--end component take catalog form-->
 {% endblock %}

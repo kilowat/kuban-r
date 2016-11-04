@@ -26,3 +26,12 @@ i {
 .ic_search{
   @include sprite($ic_search);
 }
+.ic_name{
+  @include sprite($ic_name);
+}
+.ic_email{
+  @include sprite($ic_email);
+}
+.ic_phone{
+  @include sprite($ic_phone);
+}

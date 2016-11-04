@@ -153,7 +153,7 @@
           <!--start component product slider-->
           <div class="product-wrapper">
             <div id="product-slider" data-slick='{"slidesToShow": 4,
-  "slidesToScroll": 4}'>
+  "slidesToScroll": 4, "centerMode": false}'>
               <!--foreach $arResult-->
               <div class="item">
                 <div class="image">
@@ -339,7 +339,10 @@
               <div class="item">
                 <b> КОЖА И ТЕКСТИЛЬ</b> натуральная и искусственная кожа, различные виды ткани и текстильных материалов.
                 <div class="item">
-                  <b>КАМЕНЬ</b> натуральный и искусственный камень. РЕЗИНА различные каучуковые материалы, линолеум.
+                  <b>КАМЕНЬ</b> натуральный и искусственный камень.
+                </div>
+                <div class="item">
+                  <b>РЕЗИНА</b>различные каучуковые материалы, линолеум.
                 </div>
                 <b>БУМАГА</b> картон, пенокартон, бумага.
                 <div class="item">
@@ -379,6 +382,33 @@
             </div>
             <!--end component our advanages-->
         </section>
+
+        <!--start companent take catalog form-->
+        <div class="take-catalog">
+          <h2>
+            Получите каталог со всеми моделями
+          </h2>
+          <form action="">
+            <div class="form-table">
+              <div class="input-cell">
+                <label class="ic_name" for="name"></label>
+                <input type="text" placeholder="Ваше имя" name="name" id="name">
+              </div>
+              <div class="input-cell">
+                <label class="ic_email" for="email"></label>
+                <input type="text" placeholder="E-mail" name="email" id="email">
+              </div>
+              <div class="input-cell">
+                <label class="ic_phone" for="phone"></label>
+                <input type="text" placeholder="Телефон" name="phone" id="phone">
+              </div>
+              <div class="input-cell">
+                <input type="submit" class="send-btn orange" value="Получить каталог">
+              </div>
+            </div>
+          </form>
+        </div>
+        <!--end component take catalog form-->
 
         </div>
         </div>

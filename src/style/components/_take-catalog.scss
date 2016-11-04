@@ -1,0 +1,47 @@
+.take-catalog {
+  padding-bottom: 60px;
+  border-bottom: 2px solid #ececec;
+  h2{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 29px;
+    margin-top: 40px;
+    font-size: 1.1em;
+  }
+  .form-table {
+    @include container;
+    .input-cell {
+      position: relative;
+      label{
+        position: absolute;
+        z-index: 1;
+        top: 30px;
+        left: 25px;
+      }
+      @include span(6 of 23 0.2);
+      #name:after{
+       content: "";
+       position: absolute;
+        display: block;
+       @include sprite($ic_name);   
+      }
+      &:last-child {
+        @include span(5 at 15 of 23 0.2);
+        @include last;
+      }
+      input {
+        width: 100%;
+      }
+      input[type=text] {
+        height: 73px;
+        border: 1px solid #e8e8e8;
+        border-radius: 4px;
+        box-shadow: 2px 5px 5px -3px rgba(0, 0, 0, 0.15) inset;
+        padding-left: 20%;
+        width: 80%;
+        font-size: 1em;
+        position: relative;
+      }
+    }
+  }
+}

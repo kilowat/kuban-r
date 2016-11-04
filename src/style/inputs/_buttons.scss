@@ -1,0 +1,23 @@
+.send-btn {
+  &.orange {
+    background: #f27457 linear-gradient(to bottom, #f27457 5%, #ef6448 100%) repeat scroll 0 0;
+    border: 1px solid #d83526;
+    box-shadow: 0 1px 0 0 #f6aea0 inset;
+    color: #ca3c20;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 26px 35px;
+    text-decoration: none;
+    text-shadow: 0 1px #ee9685;
+    text-transform: uppercase;
+    border-top-left-radius: 20px 8px;
+    border-top-right-radius: 20px 8px;
+    border-bottom-right-radius: 20px 8px;
+    border-bottom-left-radius: 20px 8px;
+    &:hover {
+      background: rgb(239, 100, 72) linear-gradient(to bottom, rgb(239, 100, 72) 5%, rgb(242, 116, 87) 100%) repeat scroll 0% 0%;
+    }
+  }
+}
