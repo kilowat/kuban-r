@@ -1,0 +1,41 @@
+{% extends './../layouts/master.html' %} {% block content %}
+<div class="wrapper">
+  <div class="container">
+    <div class="row margin-push">
+      {% include './../components/back-contact-info.html' %}
+    </div>
+
+    <!--start section title-->
+    <h1 class="section-title">
+    <span>Как происходит</span>
+    <span>Процесс покупки?</span>
+  </h1>
+    <!--end section title-->
+
+    <!--start component buy list-->
+    <div class="buy">
+      <div class="list">
+        {% for item in buyItems %}
+        <div class="item vtip">
+          <div class="image">
+            <img src="{{ item.img }}" alt="{{ item.name }}">
+          </div>
+          <div class="name">
+            {{ item.name }}
+          </div>
+          {% if item.tip%}
+          <div class="tip-text">
+            {{ item.tip }}
+          </div>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <!--end compnent buy list-->
+    <!--start companent order form-->
+    {% include './../components/order-form.html' %}
+    <!--end component order form-->
+  </div>
+</div>
+{% endblock %}

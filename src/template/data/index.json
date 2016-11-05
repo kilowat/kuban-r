@@ -1,5 +1,6 @@
 {
   "title": "New project",
+  "fullbg":true,
   "whyWeItems": [
     {
       "img": "./images/pig.png",

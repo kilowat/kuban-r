@@ -23,6 +23,9 @@
           display: table-cell;
           vertical-align: middle;
           border-radius: 100%;
+          &:hover{
+            background-color: $color-orange;
+          }
         }
       }
       .name {

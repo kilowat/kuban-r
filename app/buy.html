@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Покупки</title>
+  <!-- dev:css -->
+  <link rel="stylesheet" href="./css/screen.css">
+  <!-- endinject -->
+</head>
+
+<body>
+  <header class="">
+    <div class="top-section">
+      <div class="top-panel">
+        <div class="wrapper">
+          <div class="container">
+            <div class="logo">
+              <a href="/" title="Кубань радикал лазерное оборудование"><img src="./images/logo.png" alt="logo"></a>
+            </div>
+            <div class="menu-block">
+              <!--start component top menu-->
+              <ul class="top-menu">
+                <!--foreach $arResult-->
+                <li>
+                  <a href="/" title="Главная" class="selected">Главная</a>
+                </li>
+                <li>
+                  <a href="/" title="О компании">О компании</a>
+                </li>
+                <li>
+                  <a href="/" title="Продукция">Продукция</a>
+                  <ul>
+                    <li class="triangle-with-shadow"></li>
+                    <li>
+                      <a href="#" title="Web Design">Web Design</a>
+                    </li>
+                    <li>
+                      <a href="#" title="Graphic Design<">Graphic Design</a>
+                    </li>
+                    <li>
+                      <a href="#" title="Logo Design">Logo Design</a>
+                    </li>
+                    <li>
+                      <a href="#" title="Ui Experience">Ui Experience</a>
+                    </li>
+                    <li>
+                      <a href="#" title="Personal Work">Personal Work</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="/" title="Покупка">Покупка</a>
+                </li>
+                <li>
+                  <a href="/" title="Лазерная резка">Лазерная резка</a>
+                </li>
+                <li>
+                  <a href="/" title="Контакты">Контакты </a>
+                </li>
+                <!--end foreach-->
+              </ul>
+              <!--end component top-->
+            </div>
+            <!--start component search-->
+            <div id="search">
+              <form action="">
+                <div class="search-row">
+                  <input type="text" name="search">
+                  <input type="submit" value="">
+                </div>
+              </form>
+            </div>
+            <!--end component search-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--component start slider-->
+    <div class="slider-bg">
+      <div class="wrapper">
+        <div class="container">
+          <div id="slider" data-slick='{"arrows": false, "dots": true, "dotsClass": "slider-dots", "fade": true, "autoplaySpeed": "3000"}'>
+            <!--foreach $arResult-->
+            <div class="slider-row">
+              <div class="slider-cell">
+                <span>Из Китая в Россию</span>
+              </div>
+              <div class="slider-cell">
+                <span>Лазерное оборудование "под ключ" дешевле, чем у завода</span>
+              </div>
+              <div class="slider-cell dote"></div>
+            </div>
+            <div class="slider-row">
+              <div class="slider-cell">
+                <span>Резка, гравировка, марикировка</span>
+              </div>
+              <div class="slider-cell">
+                <span>Станки мощностью от 20 Вт до 3 кВт для обрабоки практически бюиых материалов</span>
+              </div>
+              <div class="slider-cell dote"></div>
+            </div>
+            <div class="slider-row">
+              <div class="slider-cell">
+                <span>Лазерная резка</span>
+              </div>
+              <div class="slider-cell">
+                <span>Услуги лазерной резки в Краснодаре по самой выгодной цене</span>
+              </div>
+              <div class="slider-cell dote"></div>
+            </div>
+            <!--endforeach-->
+          </div>
+
+          <!--start include social buttons-->
+          <ul class="soc-icon-list">
+            <li><a href="#" title="#" class="soc-icon"><i class="ic_fb"></i></a></li>
+            <li><a href="#" title="#" class="soc-icon"><i class="ic_vk"></i></a></li>
+            <li><a href="#" title="#" class="soc-icon"><i class="ic_inst"></i></a></li>
+          </ul>
+          <!--end include social buttons-->
+
+        </div>
+      </div>
+    </div>
+    <!--end component slider-->
+  </header>
+  <main>
+
+    <div class="wrapper">
+      <div class="container">
+        <div class="row margin-push">
+          <div class="back-contact-info">
+            <div class="phone-info c-btn">
+              <div class="phone ic-block">
+                <i class="ic_bigphone"></i>
+              </div>
+              <div class="text">
+                <span>8(952) 85-60-800</span><i class="ic_bigphone"></i>
+              </div>
+            </div>
+
+            <div class="email-info c-btn">
+              <div class="email ic-block">
+                <i class="ic_bigemail"></i>
+              </div>
+              <div class="text">
+                <span>email text@.ru</span><i class="ic_bigemail"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--start section title-->
+        <h1 class="section-title">
+          <span>Как происходит</span>
+          <span>Процесс покупки?</span>
+        </h1>
+        <!--end section title-->
+
+        <!--start component buy list-->
+        <div class="buy">
+          <div class="list">
+
+            <div class="item vtip">
+              <div class="image">
+                <img src="./images/jingle.png" alt="Обращение">
+              </div>
+              <div class="name">
+                Обращение
+              </div>
+
+            </div>
+
+            <div class="item vtip">
+              <div class="image">
+                <img src="./images/take-model.png" alt="Выбор модели">
+              </div>
+              <div class="name">
+                Выбор модели
+              </div>
+
+              <div class="tip-text">
+                Позвоните, чтобы мы помогли Вам определиться с моделью.
+              </div>
+
+            </div>
+
+            <div class="item vtip">
+              <div class="image">
+                <img src="./images/contrackt.png" alt="заключение договора">
+              </div>
+              <div class="name">
+                заключение договора
+              </div>
+
+            </div>
+
+            <div class="item vtip">
+              <div class="image">
+                <img src="./images/jingle.png" alt="Обращение">
+              </div>
+              <div class="name">
+                Обращение
+              </div>
+
+              <div class="tip-text">
+                Как с юридическим, так и с физическим лицом. В рублях.
+              </div>
+
+            </div>
+
+            <div class="item vtip">
+              <div class="image">
+                <img src="./images/pay.png" alt="предоплата 30%">
+              </div>
+              <div class="name">
+                предоплата 30%
+              </div>
+
+              <div class="tip-text">
+                Наличным или безналичным расчетом.
+              </div>
+
+            </div>
+
+            <div class="item vtip">
+              <div class="image">
+                <img src="./images/made.png" alt="изготовление станка">
+              </div>
+              <div class="name">
+                изготовление станка
+              </div>
+
+              <div class="tip-text">
+                1-30 дней в зависимости от модели.
+              </div>
+
+            </div>
+
+            <div class="item vtip">
+              <div class="image">
+                <img src="./images/ship.png" alt="доставка в рф">
+              </div>
+              <div class="name">
+                доставка в рф
+              </div>
+
+              <div class="tip-text">
+                14-35 дней в зависимости типа доставки (ж/д, море).
+              </div>
+
+            </div>
+
+            <div class="item vtip">
+              <div class="image">
+                <img src="./images/glass.png" alt="личный осмотр станка">
+              </div>
+              <div class="name">
+                личный осмотр станка
+              </div>
+
+              <div class="tip-text">
+                Вами или Вашим представителем.
+              </div>
+
+            </div>
+
+            <div class="item vtip">
+              <div class="image">
+                <img src="./images/coins.png" alt="полная оплата 70%">
+              </div>
+              <div class="name">
+                полная оплата 70%
+              </div>
+
+              <div class="tip-text">
+                Наличным или безналичным расчетом.
+              </div>
+
+            </div>
+
+            <div class="item vtip">
+              <div class="image">
+                <img src="./images/truck.png" alt="транспортировка до дверей заказчика">
+              </div>
+              <div class="name">
+                транспортировка до дверей заказчика
+              </div>
+
+              <div class="tip-text">
+                Либо самовывоз.
+              </div>
+
+            </div>
+
+            <div class="item vtip">
+              <div class="image">
+                <img src="./images/install.png" alt="установка оборудования">
+              </div>
+              <div class="name">
+                установка оборудования
+              </div>
+
+              <div class="tip-text">
+                Мы помогаем Вам в установке и настройке лично или удаленно (вплоть до отправки Вашего инженера в Китай на обучающие курсы).
+              </div>
+
+            </div>
+
+            <div class="item vtip">
+              <div class="image">
+                <img src="./images/help.png" alt="контрольный звонок для проверки качества">
+              </div>
+              <div class="name">
+                контрольный звонок для проверки качества
+              </div>
+
+              <div class="tip-text">
+                Мы всегда будем на связи и с радостью поможем Вам в любом вопросе!
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <!--end compnent buy list-->
+        <!--start companent order form-->
+        <div class="take-catalog">
+          <h2>
+            Оставьте заявку и мы свяжемся с вами в течение часа
+          </h2>
+          <form action="">
+            <div class="form-table">
+              <div class="input-cell">
+                <label class="ic_name" for="name"></label>
+                <input type="text" placeholder="Ваше имя" name="name" id="name">
+              </div>
+              <div class="input-cell">
+                <label class="ic_email" for="email"></label>
+                <input type="text" placeholder="E-mail" name="email" id="email">
+              </div>
+              <div class="input-cell">
+                <label class="ic_phone" for="phone"></label>
+                <input type="text" placeholder="Телефон" name="phone" id="phone">
+              </div>
+              <div class="input-cell">
+                <input type="submit" class="send-btn orange" value="Оставить заявку">
+              </div>
+            </div>
+          </form>
+        </div>
+        <!--end component order form-->
+      </div>
+    </div>
+
+    <!--push footer to down if don't have content -->
+    <div class="push-footer"></div>
+  </main>
+  <footer>
+    <div class="wrapper">
+      <div class="container">
+        <div class="top-row">
+          <div class="soc-cell">
+            <!--start include social icons-->
+            <ul class="soc-icon-list">
+              <li>
+                <a class="soc-icon" href="#" title="#">
+                  <i class="ic_fb"></i>
+                </a>
+              </li>
+              <li>
+                <a class="soc-icon" href="#" title="#">
+                  <i class="ic_vk"></i>
+                </a>
+              </li>
+              <li>
+                <a class="soc-icon" href="#" title="#">
+                  <i class="ic_inst"></i>
+                </a>
+              </li>
+            </ul>
+            <!--end include social icons-->
+          </div>
+          <div class="contact">
+            <!--start include contact info-->
+            <ul>
+              <li>
+                <span>Звоните</span>
+              </li>
+              <li>
+                Тел.: 8 (861) 217-44-05
+              </li>
+              <li>
+                Моб.: 8 (952) 85-60-800
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <span> ПИШИТЕ</span>
+              </li>
+              <li>
+                <a href="mailto:laserkr@yandex.ru">laserkr@yandex.ru</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <span>ПРИЕЗЖАЙТЕ</span>
+              </li>
+              <li>
+                РФ, 350007, г. Краснодар, ул. Захарова, 1, завод имени Седина Станкостроительный завод имени Седина
+              </li>
+            </ul>
+            <!--end include contact info-->
+          </div>
+        </div>
+        <div class="bottom-row">
+          <div class="item">
+            <a href="#"><img src="./images/link-1.png" alt="#"></a>
+          </div>
+          <div class="item">
+            <a href="#"><img src="./images/link-2.png" alt="#"></a>
+          </div>
+          <div class="item">
+            <a href="#"><img src="./images/link-3.png" alt="#"></a>
+          </div>
+        </div>
+        <div class="row cop">
+          ООО “Кубань Радикал” 1999-2016 гг.
+          <br> Все права защищены.
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--jquery:js-->
+  <script src="./libs/jquery/js/jquery.min.js"></script>
+  <!--endinject-->
+  <!--slick:js-->
+  <script src="./libs/slick/js/slick.min.js"></script>
+  <!--endinject-->
+  <!--dev:js-->
+  <script src="./js/main.js"></script>
+  <!--endinject-->
+</body>
+
+
+</html>

@@ -82,5 +82,10 @@
     "scss": [
       "bower_components/bourbon/app/assets/stylesheets/**/*.*"
     ]
+  },
+  "vtip":{
+    "js":[
+      "src/libs/vtip/js/vtip.js"
+    ]
   }
 }

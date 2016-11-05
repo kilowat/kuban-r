@@ -10,15 +10,13 @@
 </head>
 
 <body>
-  <header class="full-bg">
+  <header class="{% if fullbg %}full-bg{% endif %}">
 	{% include '../layouts/header.html' %}
   </header>
   <main> 
-    <div class="wrapper">
-      <div class="container">
-        {% block content %}{% endblock %}
-      </div>
-    </div>
+    {% block content %}{% endblock %}
+    <!--push footer to down if don't have content -->
+    <div class="push-footer"></div>
   </main>
   <footer>
     {% include '../layouts/footer.html' %}

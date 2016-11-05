@@ -29,7 +29,8 @@ var libs = {
   breakpoint: libsPath.breakpoint,
   // bourbon: libsPath.bourbon
   // bootstrap: libsPath.bootstrap, // inject name bootstrap
-  slick: libsPath.slick, // inject name slick
+  slick: libsPath.slick, // inject name slick,
+  //vtip: libsPath.vtip
   //select:libsPath.select,
   //fancybox:libsPath.fancybox,
   //cropper:libsPath.cropper,

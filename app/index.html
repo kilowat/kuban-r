@@ -80,7 +80,7 @@
     <div class="slider-bg">
       <div class="wrapper">
         <div class="container">
-          <div id="slider" data-slick='{"arrows": false, "dots": true, "dotsClass": "slider-dots", "fade": true, "autoplaySpeed": "300000000"}'>
+          <div id="slider" data-slick='{"arrows": false, "dots": true, "dotsClass": "slider-dots", "fade": true, "autoplaySpeed": "3000"}'>
             <!--foreach $arResult-->
             <div class="slider-row">
               <div class="slider-cell">
@@ -126,9 +126,9 @@
     <!--end component slider-->
   </header>
   <main>
+
     <div class="wrapper">
       <div class="container">
-
         <section class="block-0">
           <div class="about-text opacity-toggle">
             <h1>
@@ -344,8 +344,7 @@
           <!--start component serivce description list-->
           <div class="materials">
             <h2>
-              <span>виды</span>
-              <span class="color-orange">материалов</span>
+              <span>виды</span><span class="color-orange">материалов</span>
             </h2>
             <div class="materials-list">
               <!--foreach $arResult-->
@@ -384,8 +383,7 @@
           <!--start component our advantages--->
           <div class="our-advatages">
             <h2>
-              <span>Преимущества</span>
-              <span class="color-orange">нашего оборудования</span>
+              <span>Преимущества</span><span class="color-orange">нашего оборудования</span>
             </h2>
             <!--foreach $arResult-->
             <div class="row">
@@ -449,7 +447,7 @@
 
               <div class="item">
                 <div class="img-wrapper">
-                  <div class="image ">
+                  <div class="image">
                     <img src="./images/pig.png" alt="Выгодно">
                   </div>
                 </div>
@@ -464,7 +462,7 @@
 
               <div class="item">
                 <div class="img-wrapper">
-                  <div class="image ">
+                  <div class="image">
                     <img src="./images/checked.png" alt="Проверено">
                   </div>
                 </div>
@@ -479,7 +477,7 @@
 
               <div class="item">
                 <div class="img-wrapper">
-                  <div class="image ">
+                  <div class="image">
                     <img src="./images/easy.png" alt="Легко">
                   </div>
                 </div>
@@ -494,7 +492,7 @@
 
               <div class="item">
                 <div class="img-wrapper">
-                  <div class="image ">
+                  <div class="image">
                     <img src="./images/allow.png" alt="Доступно">
                   </div>
                 </div>
@@ -509,7 +507,7 @@
 
               <div class="item">
                 <div class="img-wrapper">
-                  <div class="image ">
+                  <div class="image">
                     <img src="./images/letters.png" alt="По-русски">
                   </div>
                 </div>
@@ -524,7 +522,7 @@
 
               <div class="item">
                 <div class="img-wrapper">
-                  <div class="image ">
+                  <div class="image">
                     <img src="./images/comfort.png" alt="Удобно">
                   </div>
                 </div>
@@ -539,7 +537,7 @@
 
               <div class="item">
                 <div class="img-wrapper">
-                  <div class="image ">
+                  <div class="image">
                     <img src="./images/letters.png" alt="Никаких рисков">
                   </div>
                 </div>
@@ -554,7 +552,7 @@
 
               <div class="item">
                 <div class="img-wrapper">
-                  <div class="image ">
+                  <div class="image">
                     <img src="./images/help.png" alt="Помогаем">
                   </div>
                 </div>
@@ -569,7 +567,7 @@
 
               <div class="item">
                 <div class="img-wrapper">
-                  <div class="image ">
+                  <div class="image">
                     <img src="./images/to-long.png" alt="Надолго">
                   </div>
                 </div>
@@ -584,7 +582,7 @@
 
               <div class="item">
                 <div class="img-wrapper">
-                  <div class="image orange-bg">
+                  <div class="image">
                     <img src="./images/arrow.png" alt="Сделать заказ!">
                   </div>
                 </div>
@@ -710,9 +708,11 @@
 
           <!--end component reviews-->
         </section>
+        </div>
+        </div>
 
-        </div>
-        </div>
+        <!--push footer to down if don't have content -->
+        <div class="push-footer"></div>
   </main>
   <footer>
     <div class="wrapper">

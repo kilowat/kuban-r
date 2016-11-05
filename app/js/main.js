@@ -1,8 +1,12 @@
 $(document).ready(function () {
 
   $('#slider').slick();
+  
   $('#product-slider').slick();
-
+  
+  $('#vertical-product').slick();
+  
+  //**********************************************//
   $('.back-contact-info .c-btn').click(function () {
     var self = $(this);
     var text = $(this).find('.text');
@@ -34,5 +38,6 @@ $(document).ready(function () {
       });
     }
   });
-
+/***************************************************/
+  
 });

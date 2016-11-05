@@ -1,0 +1,227 @@
+{% extends './../layouts/master.html' %} {% block content %}
+<div class="wrapper">
+  <div class="container">
+    <div class="row margin-push">
+      {% include './../components/back-contact-info.html' %}
+    </div>
+    <div class="product-page-wrapper">
+      <aside class="side-bar">
+        <div class="catalog-list" id="vertical-product" data-slick='{"vertical":true, "slidesToShow":13}'>
+          <!--foreach $arResult-->
+          {% for item in productItem %}
+          <div class="item">
+            <a href="#" title="#">
+              <span class="name">{{item.name}}</span>
+              <span class="descr">{{item.text}}</span>
+            </a>
+          </div>
+          {% endfor %}
+          <!--endforeach-->
+        </div>
+      </aside>
+
+      <div class="product">
+        <div class="product-content">
+          <div class="left-content">
+            <h1>СМА 960-T/1080-T/1390-T/1313-T</h1>
+            <div class="name">Лазерная машина для резки со сдвоенной головкой.</div>
+            <div class="dop-info">
+              МАТЕРИАЛЫ органическое стекло, пластики, дерево, бамбук и другие не металлические материалы.
+            </div>
+            <div class="dop-images">
+              <div class="image">
+                <img src="./images/example-wood.png" alt="">
+              </div>
+              <div class="image">
+                <img src="./images/example-max.png" alt="">
+              </div>
+              <div class="image">
+                <img src="./images/exampl-acril.png" alt="">
+              </div>
+              <div class="image">
+                <img src="./images/exampl-android.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="right-content">
+            <div class="product-image">
+              <img src="./images/product-printer.png" alt="">
+
+            </div>
+            <span class="price">Цена 380 000 руб*</span>
+          </div>
+        </div>
+        <div class="product-attribute">
+          <h2>Характеристики</h2>
+          <ul>
+            <li>сдвоенная головка подходит для резки зеркал, головки настраиваются автоматически или вручную.
+            </li>
+            <li>прочная рама, сваренная из стальных листов обеспечивает исключительную стабильность во время эксплуатации.
+            </li>
+            <li>компактная структура, которая обеспечивает дополнительное удобство при настройке и обслуживании.
+            </li>
+            <li>многоуровневая система защиты, включая функцию аварийной остановки, защиту от утечек, переключатель с блокировкой, которые разработаны в строгом соответствии с национальными и международными стандартами.
+            </li>
+            <li>автоматизированное управление, универсальная обработку изображений (в форматах plt, dxf, dst, dsb, ai, bmp, jpg, gif, out, oux, ymd, yln, cut, smc и т.д.), несколько языков и до 256 графических слоев обработки.
+            </li>
+            <li>рабочее поле может иметь различные размеры от 600х900 мм до 1300х1300 мм.
+            </li>
+          </ul>
+        </div>
+        <!--start attribute table-->
+        <h3>Модели</h3>
+        <div class="models-table table">
+          <div class="table-row header">
+            <div class="table-cell">
+              Модель
+            </div>
+            <div class="table-cell">
+              Рабочия поверхность (мм)
+            </div>
+            <div class="table-cell">
+              Вес (кг)
+            </div>
+            <div class="table-cell">
+              Габаритные размеры (мм)
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="table-cell">
+              CMA 960-T
+            </div>
+            <div class="table-cell">
+              900x900
+            </div>
+            <div class="table-cell">
+              239
+            </div>
+            <div class="table-cell">
+              1500x1160x1110
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="table-cell">
+              CMA 1080-T
+            </div>
+            <div class="table-cell">
+              1300x900
+            </div>
+            <div class="table-cell">
+              320
+            </div>
+            <div class="table-cell">
+              1900x1560x1110
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="table-cell">
+              CMA 1313-T
+            </div>
+            <div class="table-cell">
+              1300x1300
+            </div>
+            <div class="table-cell">
+              530
+            </div>
+            <div class="table-cell">
+              2040x1900x1050
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="table-cell">
+              CMA 960-T
+            </div>
+            <div class="table-cell">
+              900x900
+            </div>
+            <div class="table-cell">
+              239
+            </div>
+            <div class="table-cell">
+              1500x1160x1110
+            </div>
+          </div>
+
+        </div>
+        <!--end attribute table-->
+
+        <!--start teh table-->
+        <h3>Технические показатели</h3>
+        <div class="teh-table table">
+          <div class="table-row header">
+
+            <div class="table-cell">
+              Мощность лазера (Вт)
+            </div>
+            <div class="table-cell">
+              60/ 80/ 100/ 130/ 150
+            </div>
+            <div class="table-cell">
+              Способ охлаждения
+            </div>
+            <div class="table-cell">
+              Водяное охлаждение
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="table-cell">
+              Длина волны лазерного лучка (мкм)
+            </div>
+            <div class="table-cell">
+              10.6
+            </div>
+            <div class="table-cell">
+              Питающее напряжение
+            </div>
+            <div class="table-cell">
+              AC220B+-10%;
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="table-cell">
+              Точность перемещения (мм)
+            </div>
+            <div class="table-cell">
+              +-0.05
+            </div>
+            <div class="table-cell">
+              Частота (Гц)
+            </div>
+            <div class="table-cell">
+              50/60
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="table-cell">
+              Скорость перемещения (мм/с)
+            </div>
+            <div class="table-cell">
+              0-500
+            </div>
+            <div class="table-cell">
+              Температура и влажность
+            </div>
+            <div class="table-cell">
+              5-40C, 5%-80%RH (без кондесации)
+            </div>
+          </div>
+
+        </div>
+        <!--end teh table-->
+        <div class="info text-right">
+          *стоймость напрямую зависит от курса доллара пожалйста, позвоните нам, чтобы уточнить цену.
+        </div>
+      </div>
+    </div>
+    <div class="decor-line"></div>
+    {% include '../components/order-form.html' %}
+  </div>
+</div>
+{% endblock %}

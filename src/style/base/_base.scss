@@ -1,59 +1,96 @@
-body{
+body {
   font-size: $base-font-size;
   font-family: $base-font-family;
-} 
-.wrapper{
+}
+
+.wrapper {
   margin: auto;
   max-width: $wrapper-max-width;
   min-width: $wrapper-min-width;
 }
-.container{
+
+.container {
   padding-left: $container-margin;
   padding-right: $container-margin;
 }
-a{
+
+a {
   text-decoration: none;
   color: #fff;
-  &:hover{
+  &:hover {
     color: $color-link-hover;
   }
 }
-main{
+
+main {
   border-top: 8px solid #ebebeb;
-  >.wrapper .container{
+  >.wrapper .container {
     position: relative;
   }
 }
-.text-right{
+
+.push-footer {}
+
+html,
+body {
+  height: 100%;
+}
+
+main {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
+
+.footer,
+.push-footer {
+  height: 4em;
+}
+.margin-push{
+  padding-bottom: 140px;
+  border-bottom: 2px solid #ececec;
+}
+.text-right {
   text-align: right;
 }
-.text-center{
+
+.text-center {
   text-align: center;
 }
-.text-left{
+
+.text-left {
   text-align: left;
 }
-.table{
+
+.table {
   display: table;
 }
-.table-row{
+
+.table-row {
   display: table-row;
 }
-.table-cell{
+
+.table-cell {
   display: table-cell;
 }
-.orange-bg{
+
+.orange-bg {
   background-color: $color-orange!important;
 }
-.color-orange{
-  color:$color-orange;
+
+.color-orange {
+  color: $color-orange;
 }
-.color-dark{
+
+.color-dark {
   color: $color-dark;
 }
-.color-grey{
+
+.color-grey {
   color: $color-grey;
 }
-.color-grey-light{
- color: $color-grey-light; 
+
+.color-grey-light {
+  color: $color-grey-light;
 }
