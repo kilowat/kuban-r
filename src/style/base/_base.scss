@@ -21,6 +21,15 @@ a{
 main{
   border-top: 8px solid #ebebeb;
 }
+.text-right{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
 .table{
   display: table;
 }
@@ -29,6 +38,9 @@ main{
 }
 .table-cell{
   display: table-cell;
+}
+.orange-bg{
+  background-color: $color-orange!important;
 }
 .color-orange{
   color:$color-orange;

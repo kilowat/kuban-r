@@ -7,9 +7,6 @@
   <!-- dev:css -->
   <link rel="stylesheet" href="./css/screen.css">
   <!-- endinject -->
-  <!--don't fogret to remove this-->
-  <script src="http://pixp.fdrv.guru/pixp.js" type="text/javascript"></script>
-  <!---->
 </head>
 
 <body>
@@ -132,23 +129,47 @@
     <div class="wrapper">
       <div class="container">
 
-        <div class="about-text">
-          <h1>
-            <span class="about-head">
+        <section class="block-0">
+          <div class="about-text">
+            <h1>
+              <span class="about-head">
      <span>кубань Радикал</span>
-            <span class=color-orange>& Han's Yueming Laser Tech</span>
-            </span>
-            <p class="color-grey-light text-block-1">
-              Компания Кубань Радикал - официальный международный агент завода Han's Yueming Laser Tech, который является бесспорным лидером по разработке и производству лазерного оборудования для резки, гравировки и маркировки, продавая более 10 000 машин в год по
-              всему миру.
-            </p>
-            <p class="color-grey text-block-2">
-              Мы предлагаем Вам более 100 моделей высококачественных лазерных станков для обработки почти любых материалов. <br> Лазерная обработка - наиболее эффективная и высокоточная технология раскройки и гравировки как листового материала, так и
-              изогнутых поверхностей. С ее помощью можно изготавливать технические и декоративные детали любой конфигурации, не обращая внимания на геометрические ограничения. Лазерная обработка позволяет существенно сократить трудозатраты при более высоком
-              качестве продукта и меньших издержках.
-            </p>
-          </h1>
-        </div>
+              <span class=color-orange>& Han's Yueming Laser Tech</span>
+              </span>
+              <p class="color-grey-light text-block-1">
+                Компания Кубань Радикал - официальный международный агент завода Han's Yueming Laser Tech, который является бесспорным лидером по разработке и производству лазерного оборудования для резки, гравировки и маркировки, продавая более 10 000 машин в год по
+                всему миру.
+              </p>
+              <p class="color-grey text-block-2">
+                Мы предлагаем Вам более 100 моделей высококачественных лазерных станков для обработки почти любых материалов. <br> Лазерная обработка - наиболее эффективная и высокоточная технология раскройки и гравировки как листового материала, так
+                и изогнутых поверхностей. С ее помощью можно изготавливать технические и декоративные детали любой конфигурации, не обращая внимания на геометрические ограничения. Лазерная обработка позволяет существенно сократить трудозатраты при более
+                высоком качестве продукта и меньших издержках.
+              </p>
+            </h1>
+          </div>
+          <!--start include back contact info-->
+          <div class="back-contact-info">
+            <div class="phone-info">
+              <div class="phone">
+                <i class="ic_bigphone"></i>
+              </div>
+              <div class="phone-text">
+                8 400 455 5
+              </div>
+            </div>
+
+            <div class="email-info">
+              <div class="email">
+                <i class="ic_bigemail"></i>
+              </div>
+              <div class="email-info">
+                email text@.ru
+              </div>
+            </div>
+
+          </div>
+          <!--end include back contact info-->
+        </section>
         <section class="block-1">
           <!--start component product slider-->
           <div class="product-wrapper">
@@ -157,7 +178,8 @@
               <!--foreach $arResult-->
               <div class="item">
                 <div class="image">
-                  <a href="" title="CMA0604-B-A/1008-B-A/1309-B-A" style="background-image:url(./images/printer-1.png)">
+                  <a href="" title="CMA0604-B-A/1008-B-A/1309-B-A">
+                    <img src="./images/printer-1.png" alt="#">
                   </a>
                 </div>
                 <div class="text">
@@ -170,7 +192,8 @@
 
               <div class="item">
                 <div class="image">
-                  <a href="" title="" style="background-image:url(./images/printer-2.png)">
+                  <a href="" title="">
+                    <img src="./images/printer-2.png" alt="">
                   </a>
                 </div>
                 <div class="text">
@@ -183,7 +206,8 @@
 
               <div class="item">
                 <div class="image">
-                  <a href="" title="" style="background-image:url(./images/printer-2.png)">
+                  <a href="" title="">
+                    <img src="./images/printer-2.png" alt="">
                   </a>
                 </div>
                 <div class="text">
@@ -196,7 +220,8 @@
 
               <div class="item">
                 <div class="image">
-                  <a href="" title="" style="background-image:url(./images/printer-3.png)">
+                  <a href="" title="">
+                    <img src="./images/printer-3.png" alt="">
                   </a>
                 </div>
                 <div class="text">
@@ -209,7 +234,8 @@
 
               <div class="item">
                 <div class="image">
-                  <a href="" title="" style="background-image:url(./images/printer-4.png)">
+                  <a href="" title="">
+                    <img src="./images/printer-2.png" alt="">
                   </a>
                 </div>
                 <div class="text">
@@ -222,7 +248,8 @@
 
               <div class="item">
                 <div class="image">
-                  <a href="" title="" style="background-image:url(./images/printer-1.png)">
+                  <a href="" title="">
+                    <img src="./images/printer-1.png" alt="">
                   </a>
                 </div>
                 <div class="text">
@@ -383,38 +410,388 @@
             <!--end component our advanages-->
         </section>
 
-        <!--start companent take catalog form-->
-        <div class="take-catalog">
-          <h2>
-            Получите каталог со всеми моделями
-          </h2>
-          <form action="">
-            <div class="form-table">
-              <div class="input-cell">
-                <label class="ic_name" for="name"></label>
-                <input type="text" placeholder="Ваше имя" name="name" id="name">
+        <section class="block-4">
+          <!--start companent take catalog form-->
+          <div class="take-catalog">
+            <h2>
+              Получите каталог со всеми моделями
+            </h2>
+            <form action="">
+              <div class="form-table">
+                <div class="input-cell">
+                  <label class="ic_name" for="name"></label>
+                  <input type="text" placeholder="Ваше имя" name="name" id="name">
+                </div>
+                <div class="input-cell">
+                  <label class="ic_email" for="email"></label>
+                  <input type="text" placeholder="E-mail" name="email" id="email">
+                </div>
+                <div class="input-cell">
+                  <label class="ic_phone" for="phone"></label>
+                  <input type="text" placeholder="Телефон" name="phone" id="phone">
+                </div>
+                <div class="input-cell">
+                  <input type="submit" class="send-btn orange" value="Получить каталог">
+                </div>
               </div>
-              <div class="input-cell">
-                <label class="ic_email" for="email"></label>
-                <input type="text" placeholder="E-mail" name="email" id="email">
+            </form>
+          </div>
+          <!--end component take catalog form-->
+        </section>
+
+        <section class="block-5">
+          <!--start component why we-->
+          <div class="why-we">
+            <h2>
+              <span>
+      Почему
+    </span>
+              <span class="color-orange">кубань радикал?</span>
+            </h2>
+            <div class="list">
+              <!--foreach $arResult-->
+
+              <div class="item">
+                <div class="img-wrapper">
+                  <div class="image ">
+                    <img src="./images/pig.png" alt="Выгодно">
+                  </div>
+                </div>
+
+                <div class="name">
+                  Выгодно
+                </div>
+                <div class="text">
+                  Мы работаем в качестве единственного официального дилера. Это влияет на политику ценообразования. Мы получаем свое вознаграждение от завода, а не от Вас. Никакой накрутки.
+                </div>
               </div>
-              <div class="input-cell">
-                <label class="ic_phone" for="phone"></label>
-                <input type="text" placeholder="Телефон" name="phone" id="phone">
+
+              <div class="item">
+                <div class="img-wrapper">
+                  <div class="image ">
+                    <img src="./images/checked.png" alt="Проверено">
+                  </div>
+                </div>
+
+                <div class="name">
+                  Проверено
+                </div>
+                <div class="text">
+                  Мы работаем в сфере металлообрабатывающей промышленности уже более 20 лет, поэтому знаем о качестве лазерного оборудования не понаслышке.
+                </div>
               </div>
-              <div class="input-cell">
-                <input type="submit" class="send-btn orange" value="Получить каталог">
+
+              <div class="item">
+                <div class="img-wrapper">
+                  <div class="image ">
+                    <img src="./images/easy.png" alt="Легко">
+                  </div>
+                </div>
+
+                <div class="name">
+                  Легко
+                </div>
+                <div class="text">
+                  Мы полностью берем на себя решение всех бюрократических вопросов с китайской стороной, транспортными компаниями, таможней и другими инстанциями.
+                </div>
               </div>
+
+              <div class="item">
+                <div class="img-wrapper">
+                  <div class="image ">
+                    <img src="./images/allow.png" alt="Доступно">
+                  </div>
+                </div>
+
+                <div class="name">
+                  Доступно
+                </div>
+                <div class="text">
+                  Вы всегда можете лично посмотреть и потрогать аналогичное оборудование на нашем заводе (слетать в Краснодар гораздо дешевле и быстрее, чем в Китай).
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="img-wrapper">
+                  <div class="image ">
+                    <img src="./images/letters.png" alt="По-русски">
+                  </div>
+                </div>
+
+                <div class="name">
+                  По-русски
+                </div>
+                <div class="text">
+                  Мы говорим с Вами по-русски, а не по-китайски или по-английски!
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="img-wrapper">
+                  <div class="image ">
+                    <img src="./images/comfort.png" alt="Удобно">
+                  </div>
+                </div>
+
+                <div class="name">
+                  Удобно
+                </div>
+                <div class="text">
+                  Расчет производится любым удобным Вам способом В РУБЛЯХ (нет необходимости тратить время на открытие валютных счетов и т.д., нет потери на конвертации доллара).
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="img-wrapper">
+                  <div class="image ">
+                    <img src="./images/letters.png" alt="Никаких рисков">
+                  </div>
+                </div>
+
+                <div class="name">
+                  Никаких рисков
+                </div>
+                <div class="text">
+                  Мы заключаем с Вами официальный договор, при этом все обязательства перед китайской стороной берем на себя. Полная оплата производится уже ПОСЛЕ прибытия станка на территорию РФ и полной таможенной очистки.
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="img-wrapper">
+                  <div class="image ">
+                    <img src="./images/help.png" alt="Помогаем">
+                  </div>
+                </div>
+
+                <div class="name">
+                  Помогаем
+                </div>
+                <div class="text">
+                  Мы помогаем в установке, проводим обучение, а также предоставляем самую полную инструкцию НА РУССКОМ ЯЗЫКЕ, которую Вы НЕ сможете получить у китайского завода!
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="img-wrapper">
+                  <div class="image ">
+                    <img src="./images/to-long.png" alt="Надолго">
+                  </div>
+                </div>
+
+                <div class="name">
+                  Надолго
+                </div>
+                <div class="text">
+                  Все запасные детали Вы также можете приобрести у нас максимально быстро и дешево.
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="img-wrapper">
+                  <div class="image orange-bg">
+                    <img src="./images/arrow.png" alt="Сделать заказ!">
+                  </div>
+                </div>
+
+                <div class="name">
+                  Сделать заказ!
+                </div>
+                <div class="text">
+                  Мы всегда рады ответить на любые интересующие Вас вопросы.
+                </div>
+              </div>
+
+              <!--endforeach-->
             </div>
-          </form>
-        </div>
-        <!--end component take catalog form-->
+          </div>
+          <!--end compoent why we-->
+        </section>
+
+        <section class="block-6">
+          <!--start component reviews-->
+          <div class="reviews">
+            <div class="list">
+              <!--foreach $arResult-->
+
+              <div class="item">
+                <div class="name">
+                  <span>
+          Алексей
+        </span>
+                  <span class="color-orange">
+          Новосибирск
+        </span>
+                </div>
+                <div class="content">
+                  <div class="text">
+                    Наша организация занимается пошивом дизайнерской одежды и обуви, во многих случаях появляется необходимость сделать сложные выкройки и другие нестандартные элементы, в этом как ничто другое помогает лазер. Слетать в Китай самим было бы намного дороже,
+                    да и как там найти нормального продавца... Заказали станок у Кубань Радикал: никаких нареканий, все очень честно и по-человечески, советую!
+                  </div>
+                  <div class="image">
+                    <img src="./images/alex.png" alt="Алексей">
+                    <div class="pic-name">
+                      Модель CMA1810-V-B
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="name">
+                  <span>
+          Владислва
+        </span>
+                  <span class="color-orange">
+          Москва
+        </span>
+                </div>
+                <div class="content">
+                  <div class="text">
+                    Посоветовали Кубань Радикал для покупки лазера, так как я человек дотошный, решил лично слетать в Краснодар, посмотреть станок. Все на очень достойном уровне: меня встретили в аэропорту, все показали, рассказали, потом я сам попробовал порезать кусок
+                    пластика - качество бескомпромиссное.Сомнений не осталось. Заказал станок, ни разу не пожалел, что не обратился к обычным посредникам.
+                  </div>
+                  <div class="image">
+                    <img src="./images/vlad.png" alt="Владислва">
+                    <div class="pic-name">
+                      Модель CMA1313-T
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="name">
+                  <span>
+          Алексндр
+        </span>
+                  <span class="color-orange">
+          Ижевск
+        </span>
+                </div>
+                <div class="content">
+                  <div class="text">
+                    Долго искали лазер 700 Вт для резки специальных технических деталей, обзвонили, объездили, наверное, все конторы, которые этим занимаются. Когда летели в Краснодар, конечно, были сомнения, но потом они развеялись: серьезное производство, ответственные
+                    добросовестные люди. Лазер к нам приехал через 2 месяца, сэкономили почти 1.5 миллиона рублей по сравнению с покупкой нашего русского лазера, безумно довольны!
+                  </div>
+                  <div class="image">
+                    <img src="./images/alexandr.png" alt="Алексндр">
+                    <div class="pic-name">
+                      Модель CMA1325-C-G-D
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="name">
+                  <span>
+          Ринат
+        </span>
+                  <span class="color-orange">
+          Чебоксары
+        </span>
+                </div>
+                <div class="content">
+                  <div class="text">
+                    Занимаюсь изготовлением мебели, лазер искал долго, остановился на компании Кубань Радикал. Сам станок просто отличный, производительность на фирме после покупки лазера просто взлетела. Сама конструкция лазера очень простая, там и ломаться-то нечему. Установить
+                    нам его помогли инженеры Кубань Радикал буквально за несколько дней.Отдельное спасибо менеджеру Алёне.
+                  </div>
+                  <div class="image">
+                    <img src="./images/renat.png" alt="Ринат">
+                    <div class="pic-name">
+                      Модель CMA1325C-B-B
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--endforeach-->
+            </div>
+            <div class="row text-right">
+              <input type="submit" value="Оставить отзыв" class="send-btn grey">
+            </div>
+          </div>
+
+          <!--end component reviews-->
+        </section>
 
         </div>
         </div>
   </main>
   <footer>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis autem obcaecati atque sed nostrum corporis illo facere laudantium. Nesciunt ullam saepe sint officiis distinctio! Quae amet dignissimos, eos iste facere!</p>
+    <div class="wrapper">
+      <div class="container">
+        <div class="top-row">
+          <div class="soc-cell">
+            <!--start include social icons-->
+            <ul class="soc-icon-list">
+              <li>
+                <a class="soc-icon" href="#" title="#">
+                  <i class="ic_fb"></i>
+                </a>
+              </li>
+              <li>
+                <a class="soc-icon" href="#" title="#">
+                  <i class="ic_vk"></i>
+                </a>
+              </li>
+              <li>
+                <a class="soc-icon" href="#" title="#">
+                  <i class="ic_inst"></i>
+                </a>
+              </li>
+            </ul>
+            <!--end include social icons-->
+          </div>
+          <div class="contact">
+            <!--start include contact info-->
+            <ul>
+              <li>
+                <span>Звоните</span>
+              </li>
+              <li>
+                Тел.: 8 (861) 217-44-05
+              </li>
+              <li>
+                Моб.: 8 (952) 85-60-800
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <span> ПИШИТЕ</span>
+              </li>
+              <li>
+                <a href="mailto:laserkr@yandex.ru">laserkr@yandex.ru</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <span>ПРИЕЗЖАЙТЕ</span>
+              </li>
+              <li>
+                РФ, 350007, г. Краснодар, ул. Захарова, 1, завод имени Седина Станкостроительный завод имени Седина
+              </li>
+            </ul>
+            <!--end include contact info-->
+          </div>
+        </div>
+        <div class="bottom-row">
+          <div class="item">
+            <a href="#"><img src="./images/link-1.png" alt="#"></a>
+          </div>
+          <div class="item">
+            <a href="#"><img src="./images/link-2.png" alt="#"></a>
+          </div>
+          <div class="item">
+            <a href="#"><img src="./images/link-3.png" alt="#"></a>
+          </div>
+        </div>
+        <div class="row cop">
+          ООО “Кубань Радикал” 1999-2016 гг.
+          <br> Все права защищены.
+        </div>
+      </div>
+    </div>
   </footer>
   <!--jquery:js-->
   <script src="./libs/jquery/js/jquery.min.js"></script>
@@ -423,9 +800,7 @@
   <script src="./libs/slick/js/slick.min.js"></script>
   <!--endinject-->
   <!--dev:js-->
-
   <script src="./js/main.js"></script>
-
   <!--endinject-->
 </body>
 

@@ -1,0 +1,48 @@
+.reviews {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  border-bottom: 2px solid #ececec;
+  margin-bottom: 120px;
+  .list {
+    padding-bottom: 10px;
+    @include container;
+    .item {
+      @include gallery(1 of 2 0.1);
+      .name {
+        font-weight: 600;
+        padding-bottom: 60px;
+        padding-right: 5px;
+        text-transform: uppercase;
+      }
+      .content {
+        @include container;
+        .text {
+          color: $color-grey;
+          line-height: 1.7em;
+          @include span(5 of 9);
+        }
+        .image {
+           @include span(4 at 5 of 9 last);
+          text-align: right;
+          img{
+            padding: 6px;
+            background-color: #fbfbfc;
+            max-width: 229px;
+            border: 1px solid #e3e3e3;
+            @include breakpoint(max-width 1170px){
+              width: 160px;
+            }
+          }
+          .pic-name{
+            text-align: center;
+            font-size: 0.9em;
+            font-style: italic;
+            color: #aaaaaa;
+            padding-top: 10px;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
+}

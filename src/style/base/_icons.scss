@@ -35,3 +35,9 @@ i {
 .ic_phone{
   @include sprite($ic_phone);
 }
+.ic_bigphone{
+  @include sprite($ic_bigphone);
+}
+.ic_bigemail{
+  @include sprite($ic_bigemail);
+}

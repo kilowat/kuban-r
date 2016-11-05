@@ -1,6 +1,7 @@
 {% extends './../layouts/master.html' %} {% block content %}
-<div class="about-text">
-  <h1>
+<section class="block-0">
+  <div class="about-text">
+    <h1>
    <span class="about-head">
      <span>кубань Радикал</span>
      <span class=color-orange>& Han's Yueming Laser Tech</span>
@@ -13,7 +14,30 @@
     Лазерная обработка - наиболее эффективная и высокоточная технология раскройки и гравировки как листового материала, так и изогнутых поверхностей. С ее помощью можно изготавливать технические и декоративные детали любой конфигурации, не обращая внимания на геометрические ограничения. Лазерная обработка позволяет существенно сократить трудозатраты при более высоком качестве продукта и меньших издержках.
   </p>
   </h1>
-</div>
+  </div>
+  <!--start include back contact info-->
+  <div class="back-contact-info">
+    <div class="phone-info">
+      <div class="phone">
+        <i class="ic_bigphone"></i>
+      </div>
+      <div class="phone-text">
+        8 400 455 5
+      </div>
+    </div>
+    
+    <div class="email-info">
+      <div class="email">
+        <i class="ic_bigemail"></i>
+      </div>
+      <div class="email-info">
+        email text@.ru
+      </div>
+    </div>
+    
+  </div>
+  <!--end include back contact info-->
+</section>
 <section class="block-1">
   <!--start component product slider-->
   {% include './../components/product-slider.html' %}
@@ -36,7 +60,21 @@
   <!--end component our advanages-->
 </section>
 
-<!--start companent take catalog form-->
-{% include './../components/take-catalog.html' %}
-<!--end component take catalog form-->
+<section class="block-4">
+  <!--start companent take catalog form-->
+  {% include './../components/take-catalog.html' %}
+  <!--end component take catalog form-->
+</section>
+
+<section class="block-5">
+  <!--start component why we-->
+  {% include './../components/why-we.html' %}
+  <!--end compoent why we-->
+</section>
+
+<section class="block-6">
+  <!--start component reviews-->
+  {% include './../components/reviews.html' %}
+  <!--end component reviews-->
+</section>
 {% endblock %}

@@ -1,0 +1,28 @@
+<div class="why-we">
+  <h2>
+    <span>
+      Почему
+    </span>
+    <span class="color-orange">кубань радикал?</span>
+  </h2>
+  <div class="list">
+    <!--foreach $arResult-->
+    {% for item in whyWeItems" %}
+    <div class="item">
+      <div class="img-wrapper">
+        <div class="image {% if loop.last %}orange-bg{%endif%}">
+          <img src="{{item.img}}" alt="{{item.name}}">
+        </div>
+      </div>
+
+      <div class="name">
+        {{item.name}}
+      </div>
+      <div class="text">
+        {{item.text}}
+      </div>
+    </div>
+    {%endfor%}
+    <!--endforeach-->
+  </div>
+</div>

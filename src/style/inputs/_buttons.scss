@@ -20,4 +20,26 @@
       background: rgb(239, 100, 72) linear-gradient(to bottom, rgb(239, 100, 72) 5%, rgb(242, 116, 87) 100%) repeat scroll 0% 0%;
     }
   }
+  &.grey {
+    background: #f7f7f7 linear-gradient(to bottom, #f7f7f7 5%, #f0f0f0 100%) repeat scroll 0 0;
+    border: 1px solid #d8d6d6;
+    box-shadow: 0 1px 0 0 #f7f7f7 inset;
+    padding: 26px 35px;
+    color: #cccccc;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #efefef;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-top-left-radius: 20px 8px;
+    border-top-right-radius: 20px 8px;
+    border-bottom-right-radius: 20px 8px;
+    border-bottom-left-radius: 20px 8px;
+    width: 300px;
+    &:hover {
+      background: rgb(240, 240, 240) linear-gradient(to bottom, rgb(240, 240, 240) 5%, rgb(247, 247, 247) 100%) repeat scroll 0% 0%;
+    }
+  }
 }
