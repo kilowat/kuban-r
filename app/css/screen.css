@@ -905,6 +905,7 @@ footer .cop {
 
 .product-page-wrapper .product .product-content .left-content .dop-images .image img {
   height: 100%;
+  width: 100%;
   cursor: pointer;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);

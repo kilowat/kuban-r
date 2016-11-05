@@ -7,7 +7,7 @@
     .catalog-list {
       margin-bottom: -32px;
       .slick-list {
-              background-color: #fbfbfb;
+        background-color: #fbfbfb;
       }
       .item {
         border-bottom: 2px solid #ececec;
@@ -170,6 +170,7 @@
             text-align: left;
             img {
               height: 100%;
+              width: 100%;
               cursor: pointer;
               filter: grayscale(100%);
               &:hover {
@@ -247,7 +248,7 @@
   .table {
     font-size: 1.2em;
     text-align: center;
-     width: 100%;
+    width: 100%;
     .row {
       display: table-row;
     }
