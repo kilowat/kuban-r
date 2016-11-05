@@ -1,0 +1,45 @@
+.back-contact-info{
+  padding-top: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  .text{
+    float: left;
+    line-height: 2.2em;
+    background-color: #e2e2e2;
+    color: #fff;
+    font-size: 2.5em;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 100px;
+    display: table-cell;
+    display: none;
+    vertical-align: middle;
+    border-radius: 70px;
+    >i{
+      margin-left: 40px;
+    }
+    >*{
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  .phone-info, .email-info{
+    display: inline-block;
+    padding-left: 10px;
+    cursor: pointer;
+  }
+  .phone, .email{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 100%;
+    width: 128px;
+    height: 128px;
+  }
+  i{
+    display: inline-block;
+  }
+}

@@ -78,6 +78,10 @@ main {
   border-top: 8px solid #ebebeb;
 }
 
+main > .wrapper .container {
+  position: relative;
+}
+
 .text-right {
   text-align: right;
 }
@@ -496,7 +500,7 @@ footer .cop {
 }
 
 .about-text .text-block-1 {
-  font-size: 0.9em;
+  font-size: 0.8em;
   line-height: 1.6em;
   margin-bottom: 50px;
   font-weight: 300;
@@ -839,6 +843,60 @@ footer .cop {
 
 .slick-arrow.slick-hidden {
   display: none;
+}
+
+.back-contact-info {
+  padding-top: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.back-contact-info .text {
+  float: left;
+  line-height: 2.2em;
+  background-color: #e2e2e2;
+  color: #fff;
+  font-size: 2.5em;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 100px;
+  display: table-cell;
+  display: none;
+  vertical-align: middle;
+  -webkit-border-radius: 70px;
+  border-radius: 70px;
+}
+
+.back-contact-info .text > i {
+  margin-left: 40px;
+}
+
+.back-contact-info .text > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.back-contact-info .phone-info, .back-contact-info .email-info {
+  display: inline-block;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.back-contact-info .phone, .back-contact-info .email {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #ccc;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  width: 128px;
+  height: 128px;
+}
+
+.back-contact-info i {
+  display: inline-block;
 }
 
 .product-wrapper {

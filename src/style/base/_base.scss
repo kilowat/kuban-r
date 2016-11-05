@@ -20,6 +20,9 @@ a{
 }
 main{
   border-top: 8px solid #ebebeb;
+  >.wrapper .container{
+    position: relative;
+  }
 }
 .text-right{
   text-align: right;

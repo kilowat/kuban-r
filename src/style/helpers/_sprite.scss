@@ -1,14 +1,3 @@
-$ic-bigphone-name: 'ic-bigphone';
-$ic-bigphone-x: 0px;
-$ic-bigphone-y: 0px;
-$ic-bigphone-offset-x: 0px;
-$ic-bigphone-offset-y: 0px;
-$ic-bigphone-width: 60px;
-$ic-bigphone-height: 61px;
-$ic-bigphone-total-width: 150px;
-$ic-bigphone-total-height: 124px;
-$ic-bigphone-image: '../images/sprite.png';
-$ic-bigphone: (0px, 0px, 0px, 0px, 60px, 61px, 150px, 124px, '../images/sprite.png', 'ic-bigphone', );
 $ic-bigemail-name: 'ic_bigemail';
 $ic-bigemail-x: 60px;
 $ic-bigemail-y: 0px;
@@ -20,6 +9,17 @@ $ic-bigemail-total-width: 150px;
 $ic-bigemail-total-height: 124px;
 $ic-bigemail-image: '../images/sprite.png';
 $ic-bigemail: (60px, 0px, -60px, 0px, 73px, 49px, 150px, 124px, '../images/sprite.png', 'ic_bigemail', );
+$ic-bigphone-name: 'ic_bigphone';
+$ic-bigphone-x: 0px;
+$ic-bigphone-y: 0px;
+$ic-bigphone-offset-x: 0px;
+$ic-bigphone-offset-y: 0px;
+$ic-bigphone-width: 60px;
+$ic-bigphone-height: 61px;
+$ic-bigphone-total-width: 150px;
+$ic-bigphone-total-height: 124px;
+$ic-bigphone-image: '../images/sprite.png';
+$ic-bigphone: (0px, 0px, 0px, 0px, 60px, 61px, 150px, 124px, '../images/sprite.png', 'ic_bigphone', );
 $ic-email-name: 'ic_email';
 $ic-email-x: 94px;
 $ic-email-y: 61px;
@@ -111,7 +111,7 @@ $ic-vk: (36px, 61px, -36px, -61px, 37px, 22px, 150px, 124px, '../images/sprite.p
 $spritesheet-width: 150px;
 $spritesheet-height: 124px;
 $spritesheet-image: '../images/sprite.png';
-$spritesheet-sprites: ($ic-bigphone, $ic-bigemail, $ic-email, $ic-fb, $ic-inst, $ic-name, $ic-phone, $ic-search, $ic-v, $ic-vk, );
+$spritesheet-sprites: ($ic-bigemail, $ic-bigphone, $ic-email, $ic-fb, $ic-inst, $ic-name, $ic-phone, $ic-search, $ic-v, $ic-vk, );
 $spritesheet: (150px, 124px, '../images/sprite.png', $spritesheet-sprites, );
 
 @mixin sprite-width($sprite) {

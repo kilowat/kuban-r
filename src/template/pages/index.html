@@ -1,6 +1,6 @@
 {% extends './../layouts/master.html' %} {% block content %}
 <section class="block-0">
-  <div class="about-text">
+  <div class="about-text opacity-toggle">
     <h1>
    <span class="about-head">
      <span>кубань Радикал</span>
@@ -16,26 +16,7 @@
   </h1>
   </div>
   <!--start include back contact info-->
-  <div class="back-contact-info">
-    <div class="phone-info">
-      <div class="phone">
-        <i class="ic_bigphone"></i>
-      </div>
-      <div class="phone-text">
-        8 400 455 5
-      </div>
-    </div>
-    
-    <div class="email-info">
-      <div class="email">
-        <i class="ic_bigemail"></i>
-      </div>
-      <div class="email-info">
-        email text@.ru
-      </div>
-    </div>
-    
-  </div>
+  {% include './../components/back-contact-info.html' %}
   <!--end include back contact info-->
 </section>
 <section class="block-1">
